@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "button[data-test-id=\"heading-section-sign-in-button\"]"
+}

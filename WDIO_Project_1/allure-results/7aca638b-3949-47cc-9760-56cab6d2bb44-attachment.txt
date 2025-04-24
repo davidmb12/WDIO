@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#root > div > div > div.NW91UW_flex > div > div.App__middle___aiPJe > div > div > div > div > nav > div > div.FullBanner__fullBannerContainer___2BcuE > div > div > div.Carousel__carouselItems___2oTyB > div:nth-child(1) > div > div > div > div.FullBannerTile__leftContainer___3s08R > div:nth-child(1) > div.FullBannerTile__topContainer___2JqcX > h3"
+}

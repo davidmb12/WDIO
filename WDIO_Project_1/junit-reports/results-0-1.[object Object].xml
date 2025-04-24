@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Stage login" timestamp="2025-04-21T19:15:53" time="10.984" tests="1" failures="0" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Stage login"/>
+      <property name="capabilities" value="chrome.135_0_7049_96.mac"/>
+      <property name="file" value="file://./test/specs/loginStage.spec.js"/>
+    </properties>
+    <testcase classname="chrome.135_0_7049_96.mac.Stage_login" name="Login in stage latest" time="10.984">
+      <system-out><![CDATA[
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element - {"using":"css selector","value":"button[data-test-id=\"heading-section-sign-in-button\"]"}
+RESULT: {"using":"css selector","value":"button[data-test-id=\"heading-section-sign-in-button\"]"}
+COMMAND: GET /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.5330D5F187749D108E1C7AD822830894.e.10/css/display - {}
+RESULT: {}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.5330D5F187749D108E1C7AD822830894.e.10/click - {}
+RESULT: {}
+COMMAND: GET /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.14/css/display - {}
+RESULT: {}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.14/clear - {}
+RESULT: {}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.14/value - {"text":"dil18686+stage+40@adobetest.com"}
+RESULT: {"text":"dil18686+stage+40@adobetest.com"}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.18/click - {}
+RESULT: {}
+COMMAND: GET /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.67/css/display - {}
+RESULT: {}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.67/clear - {}
+RESULT: {}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.67/value - {"text":"Echo123$"}
+RESULT: {"text":"Echo123$"}
+COMMAND: GET /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.70/css/display - {}
+RESULT: {}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.AC8E2B5EE49940CB2A35959499779D09.e.70/click - {}
+RESULT: {}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/elements - {"using":"css selector","value":"#root > div > div > div.NW91UW_flex > div > div.App__middle___aiPJe > div > div > div > div > nav > div > div.FullBanner__fullBannerContainer___2BcuE > div > div > div.Carousel__carouselItems___2oTyB > div:nth-child(1) > div > div > div > div.FullBannerTile__leftContainer___3s08R > div:nth-child(1) > div.FullBannerTile__topContainer___2JqcX > h3"}
+RESULT: {"using":"css selector","value":"#root > div > div > div.NW91UW_flex > div > div.App__middle___aiPJe > div > div > div > div > nav > div > div.FullBanner__fullBannerContainer___2BcuE > div > div > div.Carousel__carouselItems___2oTyB > div:nth-child(1) > div > div > div > div.FullBannerTile__leftContainer___3s08R > div:nth-child(1) > div.FullBannerTile__topContainer___2JqcX > h3"}
+COMMAND: POST /session/2677a3586355fa122b9ede2c337f9bc0/element - {"using":"css selector","value":"#root > div > div > div.NW91UW_flex > div > div.App__middle___aiPJe > div > div > div > div > nav > div > div.FullBanner__fullBannerContainer___2BcuE > div > div > div.Carousel__carouselItems___2oTyB > div:nth-child(1) > div > div > div > div.FullBannerTile__leftContainer___3s08R > div:nth-child(1) > div.FullBannerTile__topContainer___2JqcX > h3"}
+RESULT: {"using":"css selector","value":"#root > div > div > div.NW91UW_flex > div > div.App__middle___aiPJe > div > div > div > div > nav > div > div.FullBanner__fullBannerContainer___2BcuE > div > div > div.Carousel__carouselItems___2oTyB > div:nth-child(1) > div > div > div > div.FullBannerTile__leftContainer___3s08R > div:nth-child(1) > div.FullBannerTile__topContainer___2JqcX > h3"}
+COMMAND: GET /session/2677a3586355fa122b9ede2c337f9bc0/element/f.94CEEF617ED9B391529D0F50E1648F0F.d.81159393A9D6A27C51BEA6FB8CA00FB3.e.132/text - {}
+RESULT: {}
+COMMAND: DELETE /session/2677a3586355fa122b9ede2c337f9bc0 - {}
+RESULT: {}
+]]></system-out>
+    </testcase>
+  </testsuite>
+</testsuites>

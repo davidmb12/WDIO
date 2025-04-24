@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="1" errors="0" skipped="0">
+  <testsuite name="Custom agents tests" timestamp="2025-04-23T18:50:24" time="60.002" tests="1" failures="1" errors="0" skipped="0">
+    <properties>
+      <property name="specId" value="0"/>
+      <property name="suiteName" value="Custom agents tests"/>
+      <property name="capabilities" value="chrome.135_0_7049_97.mac"/>
+      <property name="file" value="file://./test/specs/customAgents.spec.js"/>
+    </properties>
+    <testcase classname="chrome.135_0_7049_97.mac.Custom_agents_tests" name="User is able to select an specialist from Landing page prompt bar" time="60">
+      <failure message="Timeout of 60000ms exceeded. The execution in the test &quot;Custom agents tests User is able to select an specialist from Landing page prompt bar&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/test/specs/customAgents.spec.js)"/>
+      <system-out><![CDATA[
+COMMAND: POST /session/659a51929fe8e9bf80d3acf0f873d74b/refresh - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/window - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+RESULT: {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/element/f.628DE2CE930D5739096A30646653A641.d.18BA34E45CEAB25986EB02FA861DA4A4.e.106/css/display - {}
+COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/screenshot - {}
+COMMAND: DELETE /session/659a51929fe8e9bf80d3acf0f873d74b - {}
+RESULT: {}
+RESULT: {}
+RESULT: {}
+]]></system-out>
+      <system-err><![CDATA[
+Error: Timeout of 60000ms exceeded. The execution in the test "Custom agents tests User is able to select an specialist from Landing page prompt bar" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/test/specs/customAgents.spec.js)
+    at createTimeoutError (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/node_modules/mocha/lib/errors.js:498:15)
+    at Runnable._timeoutError (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/node_modules/mocha/lib/runnable.js:429:10)
+    at Timeout.<anonymous> (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/node_modules/mocha/lib/runnable.js:244:24)
+    at listOnTimeout (node:internal/timers:594:17)
+    at process.processTimers (node:internal/timers:529:7)
+]]></system-err>
+    </testcase>
+  </testsuite>
+</testsuites>

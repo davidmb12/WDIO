@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": ".//*[@aria-labelledby=(//*[normalize-space(text()) = \"[role=\"main\"]\"]/@id)] | .//*[@aria-describedby=(//*[normalize-space(text()) = \"[role=\"main\"]\"]/@id)] | .//*[@aria-label = \"[role=\"main\"]\"] | .//input[@id = (//label[normalize-space() = \"[role=\"main\"]\"]/@for)] | .//textarea[@id = (//label[normalize-space() = \"[role=\"main\"]\"]/@for)] | .//input[ancestor::label[normalize-space(text()) = \"[role=\"main\"]\"]] | .//textarea[ancestor::label[normalize-space(text()) = \"[role=\"main\"]\"]] | .//input[@placeholder=\"[role=\"main\"]\"] | .//textarea[@placeholder=\"[role=\"main\"]\"] | .//input[@aria-placeholder=\"[role=\"main\"]\"] | .//textarea[@aria-placeholder=\"[role=\"main\"]\"] | .//*[not(self::label)][@title=\"[role=\"main\"]\"] | .//img[@alt=\"[role=\"main\"]\"] | .//*[not(self::label)][normalize-space(text()) = \"[role=\"main\"]\"]"
+}
