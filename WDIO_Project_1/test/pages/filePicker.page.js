@@ -12,7 +12,9 @@ class FilePicker{
     get fileInput(){
         return $('input[data-test-id="my-device-file-input"]');
     }
-    
+    get continueButton(){
+        return $('button[data-test-id="dialog-second-button"]')
+    }
 }
 
 module.exports = new FilePicker();

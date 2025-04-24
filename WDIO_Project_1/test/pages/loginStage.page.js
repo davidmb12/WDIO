@@ -32,7 +32,7 @@ class LoginStagePage {
         await continueBtn.click();
 
         const passwordField = await this.passwordTextbox;
-        await passwordField.waitForDisplayed({timeout:5000});
+        await passwordField.waitForDisplayed();
         await passwordField.setValue(password);
         
         const logInButton = await this.logInButton;

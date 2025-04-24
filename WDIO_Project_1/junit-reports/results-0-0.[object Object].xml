@@ -1,48 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="1" errors="0" skipped="0">
-  <testsuite name="Custom agents tests" timestamp="2025-04-23T18:50:24" time="60.002" tests="1" failures="1" errors="0" skipped="0">
+<testsuites tests="1" failures="0" errors="0" skipped="0">
+  <testsuite name="Custom agents tests" timestamp="2025-04-24T16:42:19" time="24.601" tests="1" failures="0" errors="0" skipped="0">
     <properties>
       <property name="specId" value="0"/>
       <property name="suiteName" value="Custom agents tests"/>
-      <property name="capabilities" value="chrome.135_0_7049_97.mac"/>
+      <property name="capabilities" value="chrome.135_0_7049_115.mac"/>
       <property name="file" value="file://./test/specs/customAgents.spec.js"/>
     </properties>
-    <testcase classname="chrome.135_0_7049_97.mac.Custom_agents_tests" name="User is able to select an specialist from Landing page prompt bar" time="60">
-      <failure message="Timeout of 60000ms exceeded. The execution in the test &quot;Custom agents tests User is able to select an specialist from Landing page prompt bar&quot; took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/test/specs/customAgents.spec.js)"/>
+    <testcase classname="chrome.135_0_7049_115.mac.Custom_agents_tests" name="User is able to select an specialist from Landing page prompt bar" time="24.6">
       <system-out><![CDATA[
-COMMAND: POST /session/659a51929fe8e9bf80d3acf0f873d74b/refresh - {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/url - {}
 RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/window - {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/url - {}
 RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.67CF3D2861A671310448DB8E06CF30B6.e.51/css/display - {}
 RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.81/css/display - {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.67CF3D2861A671310448DB8E06CF30B6.e.51/css/display - {}
 RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.81/click - {}
 RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
-RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
-RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
-RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/url - {}
-RESULT: {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/element/f.628DE2CE930D5739096A30646653A641.d.18BA34E45CEAB25986EB02FA861DA4A4.e.106/css/display - {}
-COMMAND: GET /session/659a51929fe8e9bf80d3acf0f873d74b/screenshot - {}
-COMMAND: DELETE /session/659a51929fe8e9bf80d3acf0f873d74b - {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.81/css/display - {}
 RESULT: {}
 RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.85/css/display - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.85/click - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.117/click - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.121/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.121/css/display - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.121/click - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.125/elements - {"using":"xpath","value":".."}
+RESULT: {"using":"xpath","value":".."}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.125/element - {"using":"xpath","value":".."}
+RESULT: {"using":"xpath","value":".."}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.125/element - {"using":"xpath","value":".."}
+RESULT: {"using":"xpath","value":".."}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.124/click - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/css/display - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.225/click - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.233/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.233/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.233/css/display - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.233/click - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.266/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.266/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.268/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.268/css/display - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.268/css/display - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.268/click - {}
+RESULT: {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.269/css/display - {}
+RESULT: {}
+COMMAND: POST /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.842/click - {}
+COMMAND: GET /session/09455483c15a61689fbb5ed0c041c4cb/element/f.C96776AFC6F61CAF04C149FA6A4E9026.d.C820BA3585F79A589CF979ADC1411CCA.e.842/css/display - {}
+RESULT: {}
+RESULT: {}
+COMMAND: DELETE /session/09455483c15a61689fbb5ed0c041c4cb - {}
 RESULT: {}
 ]]></system-out>
-      <system-err><![CDATA[
-Error: Timeout of 60000ms exceeded. The execution in the test "Custom agents tests User is able to select an specialist from Landing page prompt bar" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/test/specs/customAgents.spec.js)
-    at createTimeoutError (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/node_modules/mocha/lib/errors.js:498:15)
-    at Runnable._timeoutError (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/node_modules/mocha/lib/runnable.js:429:10)
-    at Timeout.<anonymous> (/Users/davidmurillo/Documents/Dev/WDIO/WDIO_Project_1/node_modules/mocha/lib/runnable.js:244:24)
-    at listOnTimeout (node:internal/timers:594:17)
-    at process.processTimers (node:internal/timers:529:7)
-]]></system-err>
     </testcase>
   </testsuite>
 </testsuites>

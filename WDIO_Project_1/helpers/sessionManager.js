@@ -83,7 +83,6 @@ module.exports ={
             await browser.setCookies(cookie);
         }
     
-        await browser.refresh();
     
         await browser.waitUntil(
             async () => (await browser.execute(() => document.readyState)) === 'complete',
